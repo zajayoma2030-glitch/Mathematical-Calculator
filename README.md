@@ -29,9 +29,9 @@ Enter your choice (1-4): 1
 
 How many numbers do you want to add? 3
 
-Input number 1: 4
-Input number 2: 6
-Input number 3: 10
+	Input number 1: 4
+	Input number 2: 6
+	Input number 3: 10
 
 The sum of them is: 20
 
