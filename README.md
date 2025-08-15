@@ -6,7 +6,7 @@
 ## Features Description
 	- Allows users to enter two or more numbers.
 	– Enables the user to find the difference between two numbers.
-	– Enables the user to multiply two or more real numbers and displays the product
+	– Enables the user to multiply two real numbers and displays the product
 	– Divides one number by another and shows the quotient
 	– Prevents program from stopping unexpectedly when no input is given
 	– Clearer and more user-friendly messages and prompts for better usability
