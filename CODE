@@ -1,0 +1,133 @@
+# Code:
+# https://onlinegdb.com/zP6Wl5DHaN
+
+---
+
+import math
+
+while True:
+    print("WELCOME TO THE MATHEMATICAL CALCULATOR!")
+    print("Addition - 1")
+    print("Subtraction - 2")
+    print("Multiplication - 3")
+    print("Division - 4")
+    print("Exponentation - 5")
+    print("Logarithmic - 6")
+    print()
+    operation = int(input(("Please Pick an Operation:")))
+    print()
+
+    def prime_or_composite_determiner(n):
+     if n % 1 != 0:
+         return "is neither prime nor composite"
+     n = int(n)
+     if n <= 1:
+         return "is neither prime nor composite"
+     for i in range(2, n):
+         if n % i == 0:
+            return "is composite"
+     return "is prime"
+
+    def check_odd(n):
+     if n % 1 != 0:
+         return "is neither odd nor even"
+     n = int(n)
+     if n % 2 != 0:
+         return "is odd"
+     else:
+         return "is even"
+ 
+    if operation == 1:
+     number = int(input(("How many numbers do you want to add?")))
+     sum = 0
+     for i in range(1, number + 1):
+          element = float(input(f"Please enter your number ({i}):"))
+          sum = sum + element
+     print("The sum is:", sum)
+     description = str(input(("Do you want to learn more about this number? (Yes/No)")))
+     if description == "Yes":
+          print("Did you know that the number", sum, str(prime_or_composite_determiner(sum)), "and also", str(check_odd(sum)) + "?")
+     else:
+          print("Ok!")
+    
+    elif operation == 2:
+     number_1 = float(input("Please enter your first number:"))
+     number_2 = float(input("Please enter your second number:"))
+     difference = number_1 - number_2
+     print("The difference is:", difference)
+     description = str(input(("Do you want to learn more about this number? (Yes/No)")))
+     if description == "Yes":
+          print("Did you know that the number", difference, str(prime_or_composite_determiner(difference)), "and also", str(check_odd(difference)) + "?")
+     else:
+          print("Ok!")
+        
+    elif operation == 3:
+     number = int(input(("How many numbers do you want to multiply?")))
+     product = 1
+     for i in range(1, number + 1):
+        element = float(input(f"Please enter your number ({i}):"))
+        product = product*element
+     print("The product is:", product)
+     description = str(input(("Do you want to learn more about this number? (Yes/No)")))
+     if description == "Yes":
+          print("Did you know that the number", product, str(prime_or_composite_determiner(product)), "and also", str(check_odd(product)) + "?")
+     else:
+          print("Ok!")
+
+    elif operation == 4:
+        number_1 = float(input("Please enter your first number:"))
+        number_2 = float(input("Please enter your second number:"))
+        quotient = number_1//number_2
+        remainder = number_1%number_2
+        exact_value = number_1/number_2
+        if number_2 == 0:
+           print("The quotient cannot be determined; it is undefined.")
+        else:
+           print("The quotient is:", quotient, "with a remainder of:", remainder, "with an exact value of:", exact_value)
+        description = str(input(("Do you want to learn more about the quotient and remainder? (Yes/No)")))
+        if description == "Yes":
+             print("Did you know that the number", quotient, str(prime_or_composite_determiner(quotient)), "and also", str(check_odd(quotient)) + "?")
+             print("On the other hand, the number", remainder, str(prime_or_composite_determiner(remainder)), "and also", str(check_odd(remainder)) + ".")
+        else:
+           print("Ok!")
+        
+    elif operation == 5:
+      number_1 = float(input("Please enter the base of your exponent:"))
+      number_2 = float(input("Please enter your exponent:"))
+      power = number_1**number_2
+      if number_1 == 0 and number_2 == 0:
+        print("There is no definite value for this power.")
+      else:
+        print("The value of the power is:", power)
+        description = str(input(("Do you want to learn more about this number? (Yes/No)")))
+        if description == "Yes":
+            print("Did you know that the number", power, str(prime_or_composite_determiner(power)), "and also", str(check_odd(power)) + "?")
+        else:
+            print("Ok!")
+            
+    elif operation == 6:
+      number_1 = float(input("Please enter the number you want to find the logarithm of: "))
+      number_2 = float(input("Please enter the base of your logarithm: "))
+    
+      if number_1 <= 0:
+        print("The logarithm cannot be determined because the input number must be greater than 0.")
+      elif number_2 <= 0 or number_2 == 1:
+        print("The logarithm cannot be determined because the base must be greater than 0 and not equal to 1.")
+      else:
+        logarithm = math.log(number_1, number_2)
+        print("The logarithm is:", logarithm)
+        description = str(input(("Do you want to learn more about this number? (Yes/No)")))
+        if description == "Yes":
+            print("Did you know that the number", logarithm, str(prime_or_composite_determiner(logarithm)), "and also", str(check_odd(logarithm)) + "?")
+        else:
+            print("Ok!")
+            
+    else:
+        print("Sorry, but you have to pick a number from 1-6!")
+    
+    print()
+    repetition = input("Do you want to perform another operation? (Yes/No)")
+    
+    if repetition != "Yes":
+        print("Thank you for your time in THE MATHEMATICAL CALCULATOR!")
+        break
