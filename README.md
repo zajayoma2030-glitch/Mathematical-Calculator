@@ -1,15 +1,16 @@
 # Project Title Mathematical Calculator
 
 ## Project Description
-	This is a simple Python program that helps calculate two or more numbers using the four operations.
+	This is  a simple math calculator (with a twist) program that solves the problem of users needing a fast and easy way to calculate basic (and some advanced) arithmetic operations without manual calculation. 
 
 ## Features Description
-	- Allows users to enter two or more numbers.
-	– Enables the user to find the difference between two numbers.
-	– Enables the user to multiply two real numbers and displays the product
+	- Allows users to enter two or more numbers
+	– Enables the user to find the difference between two numbers
+	– Enables the user to multiply two or more real numbers and displays the product
 	– Divides one number by another and shows the quotient
-	– Prevents program from stopping unexpectedly when no input is given
+	- Enables the program to solve exponential and logarithmic equations
 	– Clearer and more user-friendly messages and prompts for better usability
+	- Enables the user to perform another operation infinitely many times
 
 ## How to Run the Program
 	1. Make sure you have Python installed.
