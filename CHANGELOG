@@ -2,6 +2,30 @@
 
 This file lists all the updates made to our simple Math Calculator Project.
 
+## Version v1.7.0 - December 6, 2025
+- Added feature for users to perform another operation.
+
+- - -
+
+## Version v1.6.0 - November 16, 2025
+- Added the logarithmic operation with the Python Math Library.
+
+- - -
+
+## Version v1.5.0 - October 23, 2025
+- Added the exponent operation.
+
+- - -
+
+## Version v1.4.1 - September 21, 2025
+- Resolved a bug when non-positive integers were determined to be composite or prime.
+
+- - -
+
+## Version v1.4.0 - September 16, 2025
+- Added feature to determine whether a number is odd or even.
+- Added feature to determine whether a number is prime or composite.
+
 – - -
 
 ## Version v1.3.0 - August 30, 2025
