@@ -3,6 +3,8 @@
 
 ---
 
+calculation_history = []
+
 import math
 
 while True:
@@ -44,18 +46,20 @@ while True:
           element = float(input(f"Please enter your number ({i}):"))
           sum = sum + element
      print("The sum is:", sum)
+     calculation_history.append(f"Added {numbers} = {total}")
      description = str(input(("Do you want to learn more about this number? (Yes/No)")))
      if description == "Yes":
           print("Did you know that the number", sum, str(prime_or_composite_determiner(sum)), "and also", str(check_odd(sum)) + "?")
      else:
           print("Ok!")
-    
+
     elif operation == 2:
      number_1 = float(input("Please enter your first number:"))
      number_2 = float(input("Please enter your second number:"))
      difference = number_1 - number_2
      print("The difference is:", difference)
      description = str(input(("Do you want to learn more about this number? (Yes/No)")))
+     calculation_history.append(f"{number_1} - {number_2} = {difference}")
      if description == "Yes":
           print("Did you know that the number", difference, str(prime_or_composite_determiner(difference)), "and also", str(check_odd(difference)) + "?")
      else:
@@ -68,6 +72,7 @@ while True:
         element = float(input(f"Please enter your number ({i}):"))
         product = product*element
      print("The product is:", product)
+     calculation_history.append(f"Multiplied {numbers} = {product}")
      description = str(input(("Do you want to learn more about this number? (Yes/No)")))
      if description == "Yes":
           print("Did you know that the number", product, str(prime_or_composite_determiner(product)), "and also", str(check_odd(product)) + "?")
@@ -84,6 +89,9 @@ while True:
            print("The quotient cannot be determined; it is undefined.")
         else:
            print("The quotient is:", quotient, "with a remainder of:", remainder, "with an exact value of:", exact_value)
+        calculation_history.append(
+                f"{number_1} ÷ {number_2} = {exact_value} (Quotient: {quotient}, Remainder: {remainder})"
+            )
         description = str(input(("Do you want to learn more about the quotient and remainder? (Yes/No)")))
         if description == "Yes":
              print("Did you know that the number", quotient, str(prime_or_composite_determiner(quotient)), "and also", str(check_odd(quotient)) + "?")
@@ -99,6 +107,7 @@ while True:
         print("There is no definite value for this power.")
       else:
         print("The value of the power is:", power)
+      calculation_history.append(f"{number_1}^{number_2} = {power}")
         description = str(input(("Do you want to learn more about this number? (Yes/No)")))
         if description == "Yes":
             print("Did you know that the number", power, str(prime_or_composite_determiner(power)), "and also", str(check_odd(power)) + "?")
@@ -116,6 +125,7 @@ while True:
       else:
         logarithm = math.log(number_1, number_2)
         print("The logarithm is:", logarithm)
+        calculation_history.append(f"log base {number_2} of {number_1} = {logarithm}")
         description = str(input(("Do you want to learn more about this number? (Yes/No)")))
         if description == "Yes":
             print("Did you know that the number", logarithm, str(prime_or_composite_determiner(logarithm)), "and also", str(check_odd(logarithm)) + "?")
