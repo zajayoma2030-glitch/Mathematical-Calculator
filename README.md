@@ -28,16 +28,16 @@
 	Division - 4
 	Exponentation - 5
 	Logarithmic - 6
-
-	Please Pick an Operation:4
-
-	Please enter your first number:3
-	Please enter your second number:1
-	The quotient is: 3.0 with a remainder of: 0.0
-	Do you want to learn more about the quotient and remainder? (Yes/No)Yes
-	Did you know that the number 3.0 is prime and also is odd?
-	On the other hand, the number 0.0 is neither prime nor composite and also is even.
-
+	View Calculation History - 7
+	
+	Please Pick an Operation:5
+	
+	Please enter the base of your exponent:4
+	Please enter your exponent:5
+	The value of the power is: 1024.0
+	Do you want to learn more about this number? (Yes/No)Yes
+	Did you know that the number 1024.0 is composite and also is even?
+	
 	Do you want to perform another operation? (Yes/No)Yes
 	WELCOME TO THE MATHEMATICAL CALCULATOR!
 	Addition - 1
@@ -46,15 +46,14 @@
 	Division - 4
 	Exponentation - 5
 	Logarithmic - 6
-
-	Please Pick an Operation:6
-
-	Please enter the number you want to find the logarithm of: 16
-	Please enter the base of your logarithm: 2
-	The logarithm is: 4.0
-	Do you want to learn more about this number? (Yes/No)No
-	Ok!
-
+	View Calculation History - 7
+	
+	Please Pick an Operation:7
+	
+	
+	CALCULATION HISTORY:
+	1. 4.0^5.0 = 1024.0
+	
 	Do you want to perform another operation? (Yes/No)No
 	Thank you for your time in THE MATHEMATICAL CALCULATOR!
 
