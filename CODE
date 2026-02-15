@@ -135,7 +135,7 @@ while True:
 
     elif operation == 7:
         if len(calculation_history) == 0:
-            print("You have made no calculations yet.)
+            print("You have made no calculations yet.")
         else:
             print()
             print("CALCULATION HISTORY:")
