@@ -15,6 +15,7 @@ while True:
     print("Division - 4")
     print("Exponentation - 5")
     print("Logarithmic - 6")
+    print("View Calculation History - 7")
     print()
     operation = int(input(("Please Pick an Operation:")))
     print()
