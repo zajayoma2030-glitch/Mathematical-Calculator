@@ -2,8 +2,13 @@
 
 This file lists all the updates made to our simple Math Calculator Project.
 
-## Version v1.7.0 - December 6, 2025
-- Added feature for users to perform another operation.
+## Version v1.7.1 - February 10, 2025
+- Resolved a bug when the calculation history received an error when no calculations were made by the user in the program.
+
+--
+
+## Version v1.7.0 - February 7, 2025
+- Added feature for users to view their calculation history.
 
 - - -
 
