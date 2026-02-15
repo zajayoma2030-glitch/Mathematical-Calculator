@@ -11,6 +11,7 @@
 	- Enables the program to solve exponential and logarithmic equations
 	– Clearer and more user-friendly messages and prompts for better usability
 	- Enables the user to perform another operation infinitely many times
+	- Enables the user to see their previous performed calculations
 
 ## How to Run the Program
 	1. Make sure you have Python installed.
