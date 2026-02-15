@@ -108,10 +108,10 @@ while True:
       else:
         print("The value of the power is:", power)
       calculation_history.append(f"{number_1}^{number_2} = {power}")
-        description = str(input(("Do you want to learn more about this number? (Yes/No)")))
-        if description == "Yes":
+      description = str(input(("Do you want to learn more about this number? (Yes/No)")))
+      if description == "Yes":
             print("Did you know that the number", power, str(prime_or_composite_determiner(power)), "and also", str(check_odd(power)) + "?")
-        else:
+      else:
             print("Ok!")
             
     elif operation == 6:
@@ -131,7 +131,15 @@ while True:
             print("Did you know that the number", logarithm, str(prime_or_composite_determiner(logarithm)), "and also", str(check_odd(logarithm)) + "?")
         else:
             print("Ok!")
-            
+
+    elif operation == 7:
+        if len(calculation_history) == 0:
+            print("No calculations yet.")
+        else:
+            print("\nCALCULATION HISTORY:")
+            for i, record in enumerate(calculation_history, 1):
+                print(f"{i}. {record}")
+
     else:
         print("Sorry, but you have to pick a number from 1-6!")
     
