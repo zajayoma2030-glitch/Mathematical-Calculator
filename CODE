@@ -135,9 +135,10 @@ while True:
 
     elif operation == 7:
         if len(calculation_history) == 0:
-            print("No calculations yet.")
+            print("You have made no calculations yet.)
         else:
-            print("\nCALCULATION HISTORY:")
+            print()
+            print("CALCULATION HISTORY:")
             for i, record in enumerate(calculation_history, 1):
                 print(f"{i}. {record}")
 
