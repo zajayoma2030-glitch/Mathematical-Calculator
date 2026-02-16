@@ -1,0 +1,19 @@
+A. How core features were implemented
+- The features in this program (i.e. operatons, calculation history)
+  were implemented using pre-defined functioms, user-defined functions
+  and libraries, specifically the Math Library in Python.
+
+B. Technologies used (with justification)
+
+
+C. Backend–frontend communication (if applicable)
+
+
+D. Key design decisions or trade-off
+
+
+E. Reference to ethical considerations in programming choices (e.g., user privacy, accessibility)
+- We made sure that no personal/private information shall be given by
+  the user and that no general information is permanently stored in
+  the computer. Additionally, the program is made to be easily readable
+  for the user by ensuring proper spacing and grammar.
