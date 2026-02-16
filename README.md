@@ -67,6 +67,12 @@
 	Do you want to perform another operation? (Yes/No)No
 	Thank you for your time in THE MATHEMATICAL CALCULATOR!
 
+## Programming and Computing Ethics
+   Being developers of the Mathematical Calculator,
+   we take into account that programming is not only about
+   making sure the code works properly but also recognizing
+   the privacy and security.
+
 ## References:
     Amit Thinks. (2022, August 12).      Python Math Module Functions -       Examples (sqrt, ceil, floor,         pow, fabs, sin, cos, cos, tan, 
 	log) [Video]. YouTube. 
