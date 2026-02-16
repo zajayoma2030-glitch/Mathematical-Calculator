@@ -72,6 +72,10 @@
    we take into account that programming is not only about
    making sure the code works properly but also recognizing
    the privacy and security.
+   We made sure that no personal/private information 
+   shall be given by
+  the user and that no information is permanently stored in
+  the program. 
 
 ## References:
     Amit Thinks. (2022, August 12).      Python Math Module Functions -       Examples (sqrt, ceil, floor,         pow, fabs, sin, cos, cos, tan, 
