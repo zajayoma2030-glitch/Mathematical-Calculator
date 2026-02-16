@@ -4,13 +4,20 @@ A. How core features were implemented
   and libraries, specifically the Math Library in Python.
 
 B. Technologies used (with justification)
-
+- 
 
 C. Backend–frontend communication (if applicable)
-
+- For ease of maintenance and debugging of our Mathematical Calculator 
+  we've chosen to keep the frontend and backend separated. 
+- The backend takes care of all calculations (i.e. Python functions), 
+  while the frontend controls the input and output user interface.
 
 D. Key design decisions or trade-off
-
+- Make the program design simple and not complex to use.
+- Made sure that the code is clean to read by ensuring proper spacing.
+- Keep the data flow smooth.
+- One critical design consideration will be how effectively can frontend communicate with backend and vice versa. 
+- Make sure there is a secure input and output of the users.
 
 E. Reference to ethical considerations in programming choices (e.g., user privacy, accessibility)
 - We made sure that no personal/private information shall be given by
