@@ -13,6 +13,15 @@
 	- Enables the user to perform another operation infinitely many times
 	- Enables the user to see their previous performed calculations
 
+## Organized File Structure
+
+    math-calculator/
+    │
+    ├── main.py
+    ├── calculator.py
+    ├── README.md
+    └── CHANGELOG.md
+
 ## How to Run the Program
 	1. Make sure you have Python installed.
 	2. Download the file ‘mathemical_calculator.py’.
