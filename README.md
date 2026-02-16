@@ -20,6 +20,7 @@
     ├── main.py
     ├── calculator.py
     ├── README.md
+	├── Detailed_Methodology_Section.md
     └── CHANGELOG.md
 
 ## How to Run the Program
