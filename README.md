@@ -67,6 +67,12 @@
 	Do you want to perform another operation? (Yes/No)No
 	Thank you for your time in THE MATHEMATICAL CALCULATOR!
 
+## References:
+    Amit Thinks. (2022, August 12).      Python Math Module Functions -       Examples (sqrt, ceil, floor,         pow, fabs, sin, cos, cos, tan, 
+	log) [Video]. YouTube. 
+	https://www.youtube.com/watch?
+	v=aX-PRr1KOZc
+
 ## Contributors:
 	Student 1: Zyan Jayoma (Project Lead)
 	Student 2: Nyel Arones (Developer)
